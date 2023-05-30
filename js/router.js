@@ -28,7 +28,6 @@ const homePage = `
   <div class="page" id="profile2">
       <h1><br><br>PROFILE</h1>
       <div class ="profile2" >
-          
           <img class = "me" src ="media/band6.jpg" alt="" width="350px;" height="400px">
           <h3 class ="intext"> <strong>이름: 장석원<br>전공: 컴퓨터 공학과<br></strong><br>
             생년월일: 2000/05/26<br><br>

@@ -1,3 +1,8 @@
+@media screen and (max-width: 767px) {
+  body {width: auto}
+  image {width:fit-content}
+}
+
 html, body{
     margin: 0;
     padding: 0;
@@ -5,8 +10,9 @@ html, body{
     width: 100%;
     background-color: white;
     color:black;
-   
+    overflow:visible;
 }
+
 /*상단바*/
 .menu * {
     display: inline;
