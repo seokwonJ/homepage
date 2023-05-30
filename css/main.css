@@ -1,0 +1,278 @@
+
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color:black;
+   
+}
+/*상단바*/
+.menu * {
+    display: inline;
+}
+.menu li {
+    margin: 35px;
+}
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: skyblue;
+}
+
+.menu ul {
+    padding-left: 0px;
+}
+.menu {
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+} 
+
+/* 메인페이지 */
+.main {
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.profile {
+    border-radius: 30%;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-top: 20px;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.profile img {
+    border-radius: 30%;
+}
+.page{
+    text-align: center;
+    width:100vw;
+    height:100vh; 
+}
+.main_text {
+    margin-bottom: 10px;
+    padding-top: 0px;
+}
+/* 프로필 */
+.profile2 {
+    border-radius: 30%;
+    display: inline-block;
+    padding: 0.1rem;
+    border: 1px solid gray;
+    background-color: rgb(255, 255, 255, 0.5);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+}
+.profile2 img {
+    border-radius: 30%;
+}
+.intext {
+    text-align: center;
+    float: right;
+    margin-top: 35px;
+    padding-left: 50px;
+}
+
+/*tmi*/
+.tmi{
+    text-align: center;
+    top:50%;
+}
+h1 {
+    text-align: center;
+    padding-top:30px;
+}
+
+.lists{
+    text-align: center;
+    font-family: 'Pretendard-Thin';
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    /*line-height: 1.5;*/
+    font-style: italic;
+    padding-bottom:10px;
+    /*margin-top:10px;*/
+}
+
+.list_img {
+    border-radius:30%;
+    text-align: center;
+    width: 225px;
+    height: 225px;
+    display: inline-block;
+    margin: 3vh 3vh;
+    margin-bottom: 10px;
+}
+
+.favorites{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.list_text{
+    text-align: center;
+}
+
+/* 프로필 */
+#profile3 {
+  background-color:  rgb(150, 150, 150, 0.1);
+}
+.profile3 {
+  border-radius: 30%;
+  display: inline-block;
+  padding: 0.1rem;
+  border: 1px solid gray;
+  background-color: rgb(225, 225, 225, 0.5);
+  border: 1px solid rgb(255, 255, 255, 0.5);
+}
+.profile3 img {
+  border-radius: 30%;
+}
+.profile3.intext {
+  text-align: center;
+  float: right;
+  margin-top: 35px;
+  padding-left: 50px;
+}
+
+
+/*메인 애니메이션*/
+:root {
+    --green: #b8d953;
+    --lilac: #b2b2eb;
+    --pink: #bb86e9;
+    --dark-green: #529a91;
+    --peach: #fe96b7;
+    --black: #191819;
+    --grey: #2a292a;
+    --white: #d9d9d9;
+  }
+  
+  .Hello-World {
+    margin-top: 200px;
+    font-family: "Ultra", serif;
+    text-align: center;
+  }
+
+  
+  .bizzy {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    justify-content: center;
+    max-height: 25px;
+    text-align: center;
+  }
+  
+  @keyframes fontGrow {
+    0% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(2);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  
+  .bizzy-letters {
+    animation-name: fontGrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .letter-H {
+    color: var(--peach);
+  }
+  
+  .letter-E {
+    color: var(--green);
+    animation-delay: 1s;
+  }
+  
+  .letter-L {
+    color: var(--pink);
+  }
+  
+  .letter-L {
+    color: var(--lilac);
+    animation-delay: 1s;
+  }
+  
+  .letter-O {
+    color: var(--dark-green);
+  }
+  
+  .bizzy-B {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+  
+  @keyframes fontGrowReverse {
+    0% {
+      transform: scaleY(2);
+    }
+    50% {
+      transform: scaleY(1);
+    }
+    100% {
+      transform: scaleY(2);
+    }
+  }
+  
+  .bizzy-letters-B {
+    animation-name: fontGrowReverse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transition-timing-function: ease-in-out;
+    
+  }
+  
+  .letter-W {
+    color: #cbe69f;
+  }
+  
+  .letter-O {
+    color: #cbe;
+    animation-delay: 1s;
+    font-stretch: ultra-condensed;
+  }
+  
+  .letter-R {
+    color: #91d1df;
+  }
+  
+  .letter-L {
+    color: #f7b407;
+    animation-delay: 1s;
+  }
+  
+  .letter-D {
+    color: pink;
+  }
