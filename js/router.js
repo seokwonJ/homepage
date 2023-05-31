@@ -37,14 +37,13 @@ const homePage = `
             취미: 풋살, 게임<br><br>
             
             좋아하는 수업: 웹프로그래밍
-
            </h3>
       </div>
   </div>
   <hr>
   <div class="page">
       <div class="main" id="main">
-          <span class="profile"><img src="media/bada.jpg" width="550px;" height="550px" alt=""/></span> 
+          <span class="profile"><img src="media/bada.jpg" width="350px;" height="400px" alt=""/></span> 
 
           <h1 class="main_text"><strong>안녕하세요 컴퓨터공학과 19학번 장석원입니다!</strong> </h1><br>
           <p>저는 경상남도 통영에서 태어나 나고 자랐으며 어렸을 때부터 게임을 좋아했습니다. 그래서 항상 장래희망을 적으라고하면</p>
